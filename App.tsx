@@ -10,8 +10,10 @@ function App(): JSX.Element {
 
   return (
     <View style={styles.root}>
+
       <DatePicker />
       <TimePicker />
+      
     </View>
   );
 }
